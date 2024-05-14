@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Store</title>
+    <link rel="icon" href="img/logo-ss.png" type="image/x-icon" />
+    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="Styles/main.css">
+    <link rel="stylesheet" href="Styles/product.css">
+    <link rel="stylesheet" href="Styles/product-demo.css">
+    <script src="JS/modernizr.custom.js"></script>
+    <link rel="stylesheet" href="styles/themify-icons-font/themify-icons/themify-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="compare-basket">
+        <button class="action action--button action--compare"><i class="fa fa-check"></i><span class="action__text">Compare</span></button>
+    </div>
+    
+    <div id="follow-email">
+        <div class="follow-email">
+            <div class="email d-flex">
+                <div class="email-content d-flex">
+                    <img src="img/baseline_email_black_24dp.png" height="27px" alt="">
+                    <p>smartstore8686@store.com</p>
+                </div>
+                <div class="email-content d-flex">
+                    <img src="img/baseline_phone_black_24dp.png" height="27px" alt="">
+                    <p>+2 (828) 324 8888<p>
+                </div>
+            </div>
+            <div class="follow">
+                <a class="follow-icon" href="">
+                    <img src="img/facebook.svg" width="27px" height="27px" alt="">
+                    <img src="img/twitter_PNG2.png" width="27px" height="27px" alt="">
+                    <img src="img/instagram_PNG8.png" width="27px" height="27px" alt="">
+                    <img src="img/pinterest_PNG7.png" width="27px" height="27px" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="header">
+        <div class="menu">
+            <div class="up">
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo-smartstore.png" width="120px" height="70px" alt=""></a>
+                </div>
+                <div class="search">
+                   <input type="text" placeholder="What are you looking for?">
+                   <button class="search-button">
+                       <span class="button-text">Search</span>
+                       <span class="button-icon"><img src="img/chevron-right.svg" width="20px" alt=""></span>
+                   </button>
+                </div>
+                <div class="icon">
+                    <a class="icon-item" href="wishlist.html">
+                        <div class="number-product-cart m-favourites">0</div>
+                        <img src="img/heart.svg" height="24px" alt="">
+                        <div class="icon-content">
+                            <span>Favourites</span>
+                        </div>
+                    </a>
+                    <a class="icon-item" href="cart.html">
+                        <div class="number-product-cart m-basket">0</div>
+                        <img src="img/bag-check.svg" height="24px" alt="">
+                        <div class="icon-content">
+                            <span>Basket</span>
+                        </div>
+                    </a>
+                    <a class="icon-item" href="login.html">
+                        <img src="img/person.svg" height="24px"  alt="">
+                        <div class="icon-content">
+                            <span>My Account</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="list">
+                <div class="list-s">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a>
+                            <ul class="subnav m-width-490">
+                                <div class="ss-subnav">
+                                    <ul>
+                                        <h4>By Category</h4>
+                                        <li><a href="list-bed.html">Bed</a></li>
+                                        <li><a href="list-bedSelf.html">Bed Shelf</a></li>
+                                        <li><a href="list-DinnerTable.html">Dinner Table</a></li>
+                                        <li><a href="list-Makeuptable.html">Makeup table</a></li>
+                                        <li><a href="list-TVshelf.html">TV shelf</a></li>
+                                        <li><a href="list-Sofa.html">Sofa</a></li>
+                                    </ul>
+                                    <ul class="Category-two">
+                                        <li><a href="list-chairs.html">Chairs</a></li>
+                                        <li><a href="list-Wardrobe.html">Wardrobe</a></li>
+                                        <li><a href="list-Teatable.html">Tea table</a></li>
+                                    </ul>
+                                    <ul>
+                                        <h4>By Brand</h4>
+                                        <li><a href="list-Aarons.html">Aaron’s</a></li>
+                                        <li><a href="list-Steelcase.html">Steelcase</a></li>
+                                        <li><a href="list-deneml.html"> Dunelm</a></li>
+                                        <li><a href="list-ashley.html"> Ashley</a></li>
+                                        <li><a href="list-ddiade.html">Driade</a></li>
+                                        <li><a href="list-knoll.html">Knoll</a></li>
+                                    </ul>
+                                </div>
+                            </ul>
+                        </li>
+                        <li  class="active"><a href="brand-aarons.html">Brands</a>
+                            <ul class="subnav m-width-120">
+                                <li><a href="brand-aarons.html">Aaron’s</a></li>
+                                <li><a href="brand-Steelcase.html">Steelcase</a></li>
+                                <li><a href="brand-dunelm.html">Dunelm</a></li>
+                                <li><a href="brand-ashleyfurniture.html">Ashley</a></li>
+                                <li><a href="brand-driade.html">Driade</a></li>
+                                <li><a href="brand-knoll.html">Knoll</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="contact_us.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="background">
+    <div id="brand-blog">
+        <div class="name-brand">
+            <h1>Dunelm</h1>
+        </div>
+        <div class="headquarters-brand position-relative">
+            <div class="headquarters-content">
+                <img src="img/brand-dunelm.jpg" width="100%" height="570px" alt="">
+                <div class="content-box position-relative">
+                    <div class="content">
+                        <h2>AMBITIOUS ABOUT OUR BRAND</h2>
+                        <span>Grow as the #1 destination for home, loved by more customers shopping more frequently for homewares, furniture and more.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blog-s position-relative">
+            <div class="blog">
+                <div class="blog-content">
+                    <div class="content">
+                        <p>We are the UK’s leading homewares retailer with a growing presence in the furniture market. In our changing world, it’s never been more important to help make our customers feel truly at home – and we want Dunelm to be their first choice.</p>
+                        <!-- <p>They create destinations designed to augment interaction; the interactions that create value by propelling innovation and building a resilient enterprise.</p>
+                        <p>Leading organizations understand that in an increasingly complex and competitive global environment, place matters, more than ever.</p> -->
+                    </div>
+                    <div class="content">
+                        <p>Sustainable in everything we do’ is one of our foundations and signals to our stakeholders and shareholders the importance we place on building sustainability into all aspects of our business. We are committed to products, services and experiences that are: better for the planet, better for the home and better for people — with communicated governance, policies, measures and shared values to back up what we say and do</p>
+                        <p>In July 2021 we reorganised and reinvigorated the way we manage our sustainability activities with Nick Wilkinson, CEO, chairing our new Pathway to Zero Steering Group.</p>
+                    </div>
+                </div>
+                <div class="blog-logo content">
+                    <img src="img/logo-dunelm.png" alt="">
+                    <p>Focusing on quality of growth and long-term value creation by using our resources wisely and efficiently.</p>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+
+    <div id="product-smart-store" class="product-brand">
+        <div class="name">
+            <h1>Products Of Dunelm</h1>
+        </div>
+        <div class="view">
+            <section class="grid">
+                <!-- Products -->
+                <div class="product">
+                    <div class="product__info">
+                        <img class="product__image" src="img/img-product/Goran Dining Table_01.jpg" alt="Product 1" width="100%" height="100%"/>
+                        <a href="pd-dts-1-goran.html"><h3 class="product__title">Goran Dining Table</h3></a>
+                        <span class="product__year extra highlight">2011</span>
+                        <span class="product__region extra highlight">Douro</span>
+                        <span class="product__varietal extra highlight">Touriga Nacional</span>
+                        <span class="product__alcohol extra highlight">13%</span>
+                        <span class="product__price highlight">$<span>119</span> </span>
+                        <span class="in-stock">100 in stock</span>
+                    </div>
+                    <label class="action action--compare-like"><i class="far fa-heart product-quality--like"></i></label>
+                    <label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+                </div>
+                <div class="product">
+                    <div class="product__info">
+                        <img class="product__image" src="img/img-product/Indi Bedside Table_01.jpg" alt="Product 2" width="100%" height="100%"/>
+                        <a href="pd-dts-2-indi.html"><h3 class="product__title">Indi Bedside Table</h3></a>
+                        <span class="product__year extra highlight">2011</span>
+                        <span class="product__region extra highlight">Douro</span>
+                        <span class="product__varietal extra highlight">Touriga Nacional</span>
+                        <span class="product__alcohol extra highlight">13%</span>
+                        <span class="product__price highlight">$<span>169</span> </span>
+                        <span class="in-stock">100 in stock</span>
+                    </div>
+                    <label class="action action--compare-like"><i class="far fa-heart product-quality--like"></i></label>
+                    <label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+                </div>
+                <div class="product">
+                    <div class="product__info">
+                        <img class="product__image" src="img/img-product/Giselle Dining Table_01.jpg" alt="Product 3" width="100%" height="100%"/>
+                        <a href="pd-dts-2-gieslle.html"><h3 class="product__title">Giselle Dining Table</h3></a>
+                        <span class="product__year extra highlight">2011</span>
+                        <span class="product__region extra highlight">Douro</span>
+                        <span class="product__varietal extra highlight">Touriga Nacional</span>
+                        <span class="product__alcohol extra highlight">13%</span>
+                        <span class="product__price highlight">$<span>329</span> </span>
+                        <span class="in-stock">100 in stock</span>
+                    </div>
+                    <label class="action action--compare-like"><i class="far fa-heart product-quality--like"></i></label>
+                    <label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+                </div>
+                <div class="product">
+                    <div class="product__info">
+                        <img class="product__image" src="img/img-product/Lynton Bed_01.jpg" alt="Product 5" width="100%" height="100%"/>
+                        <a href="pd-dts-2-lynton.html"><h3 class="product__title">Lynton Bed</h3></a>
+                        <span class="product__year extra highlight">2011</span>
+                        <span class="product__region extra highlight">Douro</span>
+                        <span class="product__varietal extra highlight">Touriga Nacional</span>
+                        <span class="product__alcohol extra highlight">13%</span>
+                        <span class="product__price highlight">$<span>279</span> </span>
+                        <span class="in-stock">100 in stock</span>
+                    </div>
+                    <label class="action action--compare-like"><i class="far fa-heart product-quality--like"></i></label>
+                    <label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+                </div>
+                <div class="product">
+                    <div class="product__info">
+                        <img class="product__image" src="img/img-product/Greenwich Coffee Nest_01.jpg" alt="Product 3" width="100%" height="100%"/>
+                        <a href="pd-dts-1-greenwich.html"><h3 class="product__title">Greenwich Coffee Nest</h3></a>
+                        <span class="product__year extra highlight">2011</span>
+                        <span class="product__region extra highlight">Douro</span>
+                        <span class="product__varietal extra highlight">Touriga Nacional</span>
+                        <span class="product__alcohol extra highlight">13%</span>
+                        <span class="product__price highlight">$<span>159</span> </span>
+                        <span class="in-stock">100 in stock</span>
+                    </div>
+                    <label class="action action--compare-like"><i class="far fa-heart product-quality--like"></i></label>
+                    <label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+                </div>
+                <div class="product">
+                    <div class="product__info">
+                        <img class="product__image" src="img/img-product/Franco Side Table_01.jpg" alt="Product 4" width="100%" height="100%"/>
+                        <a href="pd-dts-1-franco.html"><h3 class="product__title">Franco Side Table</h3></a>
+                        <span class="product__year extra highlight">2011</span>
+                        <span class="product__region extra highlight">Douro</span>
+                        <span class="product__varietal extra highlight">Touriga Nacional</span>
+                        <span class="product__alcohol extra highlight">13%</span>
+                        <span class="product__price highlight">$<span>79</span> </span>
+                        <span class="in-stock">100 in stock</span>
+                    </div>
+                    <label class="action action--compare-like"><i class="far fa-heart product-quality--like"></i></label>
+                    <label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+                </div>
+            </section>
+        </div>
+        <section class="compare">
+            <button class="action action--close"><i class="fa fa-remove"></i><span class="action__text action__text--invisible">Close comparison overlay</span></button>
+        </section>
+    </div>
+</div>
+
+<!--drag-wrapper-->
+<div id="drag-wrapper">
+    <a href="#">
+        <img src="img/square-up.svg" height="40px" alt="">
+    </a>
+</div>
+
+<!--footer-->
+<div id="footer">
+    <div class="logo-brand">
+        <a href="brand-knoll.html">
+            <img src="img/logo_knoll.webp" width="160px" height="40px" alt="">
+        </a>
+        <a href="brand-ashleyfurniture.html">
+            <img src="img/logo_Ashley.svg" width="160px" height="40px" alt="">
+        </a>
+        <a href="brand-aarons.html">
+            <img src="img/logo_Aarons.svg" width="160px" height="40px" alt="">
+        </a>
+        <a href="brand-driade.html">
+            <img src="img/logo_Driade.png" width="160px" height="40px" alt="">
+        </a>
+        <a href="brand-Steelcase.html">
+            <img src="img/logo_steelcase.svg" width="160px" height="40px" alt="">
+        </a>
+        <a href="brand-dunelm.html">
+            <img src="img/logo-dunelm.png" width="160px" height="40px" alt="">
+        </a>
+    </div>
+    <div class="footer-content">
+        <div class="customerService">
+            <h4>Customer Service</h4>
+            <ul>
+                <li>
+                    <a href="">Help</a>
+                </li>
+                <li>
+                    <a href="">Track My Order</a>
+                </li>
+                <li>
+                    <a href="">Returns & Refunds</a>
+                </li>
+            </ul>
+        </div>
+        <div class="waysToShop">
+            <h4>Ways to Shop</h4>
+            <ul>
+                <li>
+                    <a href="">Home Delivery</a>
+                </li>
+                <li>
+                    <a href="">Safe Shopping</a>
+                </li>
+                <li>
+                    <a href="">Click & Collect</a>
+                </li>
+            </ul>
+        </div>
+        <div class="about">
+            <h4>About Smart Store</h4>
+            <ul>
+                <li>
+                    <a href="">Contact Us</a>
+                </li>
+                <li>
+                    <a href="">Sustainability</a>
+                </li>
+                <li>
+                    <a href="">Inspiration & Lifestyle</a>
+                </li>
+            </ul>
+        </div>
+        <div class="logo-social-payments">
+            <div class="logo-smartStore">
+                <a href="index.html"><img src="img/logo-smartstore.png" width="100px" alt=""></a>
+                <br />
+                <span>©Smart Store 2022</span>
+            </div>
+            <div class="follow">
+                <h3>FOLLOW US</h3>
+                <a class="follow-icon" href="">
+                    <img src="img/facebook.svg" width="28px" height="28px" alt="">
+                    <img src="img/twitter_PNG2.png" width="28px" height="28px" alt="">
+                    <img src="img/instagram_PNG8.png" width="28px" height="28px" alt="">
+                    <img src="img/pinterest_PNG7.png" width="28px" height="28px" alt="">
+                    <img src="img/youtube_PNG102347.png" width="28px" height="28px" alt="">
+                </a>
+            </div>
+            <div class="payments">
+                <h3>Safe & Secure Payments</h3>
+                <img src="img/payment.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="JS/product-wishlist.js"></script>
+<script src="JS/product-cart.js"></script>
+<script src="js/wishlist-cart.js"></script>
+<script src="JS/classie.js"></script>
+<script src="JS/product.js"></script>
+</body>
+</html>

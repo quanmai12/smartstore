@@ -1,0 +1,187 @@
+ html {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.4285;
+    color: rgb(51, 51, 51);
+    background-color: white;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0px auto;
+}
+
+*{
+    margin:  0px auto;
+}
+
+/* login-registration */
+#smartStore-header {
+    box-sizing: border-box;
+    background-color: rgb(228, 228, 228);
+    margin: 0px;
+}
+
+#smartStore-header .smartStore-header {
+    width: 1200px;
+}
+
+#smartStore-header .smartStore {
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    padding: 5px 0;
+}
+
+#smartStore-header .login-registration{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+#smartStore-header .login-registration .item {
+    margin: 10px 20px;
+    color: #222;
+    font-size: 1.5rem;
+    font-weight: 530;
+}
+
+#smartStore-header .help{
+    margin: 22px 15px 22px 0px;
+    font-size: .875rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+#smartStore-header .help a {
+    align-items: center;
+    opacity: 0.8;
+}
+
+#smartStore-header .help a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+
+/* */
+#smartStore-body {
+    background-color: #f6f6f6;
+    text-align: center;
+}
+
+#smartStore-body .container {
+    width: 1200px;
+    display: flex;
+    padding: 50px;
+}
+
+#smartStore-body .logo-content-box {
+    width: 500px;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#smartStore-body .logo-content-box .m-88-0 {
+    margin: 76px 0px;
+}
+
+#smartStore-body .logo-content-box .m-138-0 {
+    margin: 138px 0px;
+}
+
+#smartStore-body .logo-content-box .content {
+    width: 400px;
+    justify-content: center;
+}
+
+#smartStore-body .form-tag {
+    background-color: rgb(235, 235, 235);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+}
+
+#smartStore-body .form-tag .login-registration-title {
+    max-width: 8.5rem;
+    font-size: 1.25rem;
+    color: #222;
+    text-transform: capitalize;
+    margin: 25px auto;
+}
+
+#smartStore-body .form-tag .box {
+    padding: 0px 35px 20px 35px ;
+    overflow: hidden
+}
+
+#smartStore-body .form-tag .enter {
+    width: 100%;
+    padding: 0.75rem;
+    outline: none;
+    flex: 1;
+    flex-shrink: 0;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.input--ss {
+    margin-bottom: 30px;
+}
+
+#smartStore-body .form-tag .btn {
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(56, 55, 55);
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.75;
+    border-radius: 3px;
+}
+
+#smartStore-body .form-tag .btn:hover {
+    opacity: 1;
+}
+
+#smartStore-body .form-tag .forgot {
+    text-align: right;
+    margin: 5px 0px 5px 200px;
+    font-size: 13px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#smartStore-body .form-tag .forgot:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+#smartStore-body .form-tag .newTo {
+    margin: 15px;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+#smartStore-body .form-tag .newTo span {
+    color: rgb(146, 146, 146);
+}
+
+
+#smartStore-body .form-tag .newTo a:hover {
+    overflow: 1;
+    text-decoration:underline;
+}
+
+
+element.style {
+}
+.form-message {
+    display: block;
+    font-size: 14px;
+    padding-top: 5px;
+    color: rgb(233, 60, 60);
+    text-align: left;
+}
